@@ -1,0 +1,12 @@
+train: train/images
+val: valid/images
+
+nc: 10
+names: ['limit100', 'limit120', 'limit40', 'limit60', 'limit80', 'not_go_straight', 'not_turn_left', 'not_turn_right', 'not_u_turn_left', 'not_u_turn_right']
+
+roboflow:
+  workspace: myworkspace-3md2k
+  project: traffic-sign-1cssp
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myworkspace-3md2k/traffic-sign-1cssp/dataset/8
